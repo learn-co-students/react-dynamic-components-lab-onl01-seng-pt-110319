@@ -1,27 +1,5 @@
 # React Dynamic Components Lab
-
-## Learning Goals
-
-- Practice writing dynamic components
-- Practice jumping into existing code and making the necessary changes
-
 ## Introduction
-
-In this lab, you'll write React components and render them dynamically based on
-information they receive from their parent components. This will enable us to use
-components as templates with the ability to render variable content.
-
-There are two discrete parts of this lab, and they should be tackled one after
-the other. We will need to first create a `Comment` component from scratch and
-then add a few things to the `ColorBox` component.
-
-All of the css has been provided, as well as a good amount of starter code. The
-general structure has already been provided - you are to pick up where the code
-leaves off and make both the `Comment` and the `ColorBox` components behave
-dynamically.
-
-Here is an image of what we want once we are finished, complete with a view of
-the rendered DOM tree on the right:
 
 <img src="https://curriculum-content.s3.amazonaws.com/react/completed-example-dynamic-components-lab.png" alt="completed example" />
 
@@ -43,10 +21,6 @@ the rendered DOM tree on the right:
 Go ahead and `npm start` to see what we already have rendering in the browser.
 
 ## Deliverables
-
-(The application will error on `npm start` until the `Comment` component is
-created and exported)
-
 #### `Comment` Component
 
 - Create a `Comment` component in the file, `Comment.js` within `src/` and don't forget to:
